@@ -2,12 +2,17 @@
     text-align: center;
 }
 
-.container-small {
-    max-width: 736px;
-    margin: 0 auto;
+.container-big {
+
 }
 
-.container-big {
+.container {
+    max-width: 972px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+
+.container-small {
     max-width: 816px;
     margin: 0 auto;
 }
@@ -15,9 +20,16 @@
 .col {
     display: flex;
     flex-direction: column;
+}
+
+.col-with-gap {
+    display: flex;
+    flex-direction: column;
     gap: 28px;
 }
 
-.row {
+.row-spaced-between {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

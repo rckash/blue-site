@@ -8,3 +8,10 @@
     width: fit-content;
     border-radius: 100px;
 }
+
+.button--light {
+    background-color: var(--c-blue);
+    padding: 13px 24px;
+    width: fit-content;
+    border: 1px solid var(--c-white);
+}
