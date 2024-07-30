@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Colors */
+    --c-blue: #000000;
+
+    /* Fonts */
+    --ff-primary: "DM Sans"
+}
+
+body {
+    font-size: ;
+    line-height: ;
+    font-weight: 400;
+    font-family: var(--ff-primary);
+}
