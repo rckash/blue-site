@@ -1,0 +1,18 @@
+.works-card {
+    max-width: 470px;
+    width: 100%;
+}
+
+.works-card__img {
+    max-width: 470px;
+    width: 100%;
+}
+
+.works-card__title {
+    padding-top: 4px;
+    font-weight: 400;
+}
+
+.works-card__subtitle {
+    padding-top: 30px;
+}
