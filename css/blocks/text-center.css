@@ -1,7 +1,14 @@
 .is-small-vertical-padding{
-    padding: 108px 0;
+    padding: 108px 20px;
 }
 
 .is-big-vertical-padding{
-    padding: 142px 0;
+    padding: 142px 20px;
+}
+
+.text-center__button {
+    padding-top: 84px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
