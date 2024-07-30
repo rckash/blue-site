@@ -6,15 +6,18 @@
 
 :root {
     /* Colors */
-    --c-blue: #000000;
+    --c-blue: #2F1893;
+    --c-blue-secondary: #482BE7;
+    --c-white: #FFFFFF;
 
     /* Fonts */
     --ff-primary: "DM Sans"
 }
 
 body {
-    font-size: ;
-    line-height: ;
+    color: var(--c-white);
+    font-size: 22px;
+    line-height: 32px;
     font-weight: 400;
     font-family: var(--ff-primary);
 }

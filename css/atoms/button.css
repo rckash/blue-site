@@ -1,0 +1,10 @@
+.button {
+    background-color: var(--c-blue-secondary);
+    color: var(--c-white);
+    text-decoration: none;
+    padding: 17px 35px;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 100px;
+}

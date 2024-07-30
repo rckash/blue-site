@@ -1,0 +1,24 @@
+.is-headline {
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+.is-small-headline {
+    font-size: 58px;
+    line-height: 70px;
+}
+
+.is-medium {
+    font-weight: 500;
+}
+
+.is-bold {
+    font-weight: 700;
+}
+
+.is-small {
+    font-size: 18px;
+    line-height: 28px;
+}

@@ -1,0 +1,19 @@
+.is-text-center {
+    text-align: center;
+}
+
+.container-small {
+    max-width: 736px;
+    margin: 0 auto;
+}
+
+.container-big {
+    max-width: 816px;
+    margin: 0 auto;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
