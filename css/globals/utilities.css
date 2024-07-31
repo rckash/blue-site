@@ -36,6 +36,12 @@
     align-items: center;
 }
 
+.row-spaced-between-responsive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .row-big-gap {
     display: flex;
     gap: 144px;
@@ -52,5 +58,11 @@
         flex-direction: column;
         gap: 144px;
         margin: 0 auto;
+    }
+
+    .row-spaced-between-responsive {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
     }
 }
