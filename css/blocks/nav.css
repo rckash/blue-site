@@ -1,0 +1,31 @@
+.nav {
+    width: 100%;
+}
+
+.nav__container {
+    position: fixed;
+    z-index: 50;
+    left: 50%;
+    transform: translate(-50%);
+    top: 64px;
+    width: 100%;
+    max-width: 472px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav__list {
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: var(--c-white);
+}
+
+.nav__active-link {
+    color: var(--c-white);
+    opacity: 50%;
+}
