@@ -1,0 +1,18 @@
+.grid-small {
+    max-width: 764px;
+}
+
+.grid-small__title {
+
+}
+
+.grid-small__description {
+    padding-top: 31px;
+}
+
+.grid-small__cards {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
