@@ -1,0 +1,15 @@
+.footer__quick-links-top {
+    color: var(--c-white);
+    text-decoration: none;
+}
+
+.footer__quick-link {
+    color: var(--c-white);
+    text-decoration: none;
+}
+
+.footer__quick-links-bottom {
+    padding-top: 48px;
+    border-top: 1px solid var(--c-white);
+    margin-top: 40px;
+}
