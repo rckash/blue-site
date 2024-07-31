@@ -1,0 +1,21 @@
+.crew-card {
+    max-width: 154px;
+}
+
+.crew-card__img {
+    max-width: 100px;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.crew-card__title {
+    padding-top: 16px;
+}
+
+.crew-card__subtitle {
+    padding-top: 8px;
+}
+
+.crew-card__social-links {
+    padding-top: 20px;
+}
