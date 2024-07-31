@@ -6,6 +6,7 @@
 .works-card__img {
     max-width: 470px;
     width: 100%;
+    border-radius: 10px;
 }
 
 .works-card__title {
