@@ -45,3 +45,12 @@
     display: flex;
     gap: 30px;
 }
+
+@media screen and (max-width: 860px) {
+    .row-big-gap {
+        display: flex;
+        flex-direction: column;
+        gap: 144px;
+        margin: 0 auto;
+    }
+}

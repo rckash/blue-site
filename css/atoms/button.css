@@ -6,7 +6,13 @@
     display: flex;
     justify-content: center;
     width: fit-content;
-    border-radius: 100px;
+    border-radius: 50px;
+}
+
+.button:hover {
+    background-color: var(--c-white);
+    color: var(--c-blue-secondary);
+    transition-duration: 0.2s;
 }
 
 .button--light {

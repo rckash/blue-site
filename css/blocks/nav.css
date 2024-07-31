@@ -21,7 +21,14 @@
     color: var(--c-white);
 }
 
+.nav__link:hover {
+    font-weight: 600;
+    color: var(--c-white);
+    opacity: 1;
+}
+
 .nav__active-link {
     color: var(--c-white);
     opacity: 50%;
 }
+

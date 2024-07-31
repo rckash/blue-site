@@ -16,3 +16,11 @@
     flex-direction: column;
     gap: 60px;
 }
+
+@media screen and (max-width: 860px) {
+    .grid-small__cards {
+        display: flex;
+        flex-direction: column;
+        gap: 144px;
+    }
+}
