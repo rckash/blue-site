@@ -13,14 +13,14 @@
 .grid-small__cards {
     padding-top: 70px;
     display: flex;
-    flex-direction: column;
-    gap: 60px;
+    flex-wrap: wrap;
+    gap: 144px;
+    align-content: flex-start;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 600px) {
     .grid-small__cards {
-        display: flex;
-        flex-direction: column;
-        gap: 144px;
+        gap: 160px;
+        justify-content: center;
     }
 }
