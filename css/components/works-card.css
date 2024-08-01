@@ -1,6 +1,13 @@
 .works-card {
     max-width: 470px;
     width: 100%;
+    position: relative;
+}
+
+.works-card:hover {
+    opacity: 80%;
+    cursor: pointer;
+    transition-duration: 0.2s;
 }
 
 .works-card__img {
@@ -16,4 +23,10 @@
 
 .works-card__subtitle {
     padding-top: 30px;
+}
+
+.works-card__link {
+    position: absolute;
+    inset: 0;
+    z-index: 99;
 }

@@ -10,6 +10,7 @@
 
 .footer__quick-link:hover {
     transform: scale(1.2);
+    transition-duration: 0.2s;
 }
 
 .footer__quick-links-bottom {

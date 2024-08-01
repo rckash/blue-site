@@ -19,3 +19,8 @@
 .crew-card__social-links {
     padding-top: 20px;
 }
+
+.crew-card__social-links a:hover {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+}
