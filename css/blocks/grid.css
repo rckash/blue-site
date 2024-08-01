@@ -4,6 +4,11 @@
 
 .grid__cards {
     padding-top: 52px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .grid__cards-bottom-row {
