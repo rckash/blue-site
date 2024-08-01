@@ -16,14 +16,16 @@
     list-style: none;
 }
 
+.nav__list li:hover {
+    transform: scale(1.2);
+}
+
 .nav__link {
     text-decoration: none;
     color: var(--c-white);
 }
 
 .nav__link:hover {
-    font-weight: 600;
-    color: var(--c-white);
     opacity: 1;
 }
 
