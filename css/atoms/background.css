@@ -4,6 +4,17 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    isolation: isolate;
+    position: relative;
+}
+
+.is-mountain-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--c-blue);
+    opacity: .4;
+    z-index: -1;
 }
 
 .is-sea-bg {
@@ -12,6 +23,17 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    isolation: isolate;
+    position: relative;
+}
+
+.is-sea-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--c-blue);
+    opacity: .4;
+    z-index: -1;
 }
 
 .is-blue-bg {
