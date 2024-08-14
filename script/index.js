@@ -176,14 +176,14 @@ for (i = 0; i < crew.length; i++) {
     if (hasFacebook) {
         console.log("We have the facebook");
         const facebookImg = document.createElement("IMG");
-        facebookImg.src = "../images/fa-facebook-square.png";
+        facebookImg.src = "./images/fa-facebook-square.png";
         crewCardRowSmallGap.appendChild(facebookImg); 
     }
 
     if (hasInstagram) {
         console.log("We have the Instagram");
         const instagramImg = document.createElement("IMG");
-        instagramImg.src = "/images/fa-instagram.png";
+        instagramImg.src = "images/fa-instagram.png";
         crewCardRowSmallGap.appendChild(instagramImg); 
     }
 
