@@ -137,6 +137,7 @@ const crew = [
     }
 ]
 
+
 const gridSmallCards = document.getElementsByClassName("grid-small__cards")[0];
 
 for (i = 0; i < crew.length; i++) {
