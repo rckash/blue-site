@@ -180,7 +180,7 @@ for (i = 0; i < crew.length; i++) {
         facebookLink.href = crew[i].socials.facebook;
 
         const facebookImg = document.createElement("IMG");
-        facebookImg.src = "../images/fa-facebook-square.png";
+        facebookImg.src = "images/fa-facebook-square.png";
         facebookLink.appendChild(facebookImg);
 
         crewCardRowSmallGap.appendChild(facebookLink); 
@@ -206,7 +206,7 @@ for (i = 0; i < crew.length; i++) {
         twitterLink.href = crew[i].socials.twitter;
 
         const twitterImg = document.createElement("IMG");
-        twitterImg.src = "/images/fa-twitter.png";
+        twitterImg.src = "images/fa-twitter.png";
         twitterLink.appendChild(twitterImg);
 
         crewCardRowSmallGap.appendChild(twitterLink); 
