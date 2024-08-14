@@ -176,7 +176,7 @@ for (i = 0; i < crew.length; i++) {
     if (hasFacebook) {
         console.log("We have the facebook");
         const facebookImg = document.createElement("IMG");
-        facebookImg.src = "/images/fa-facebook-square.png";
+        facebookImg.src = "../images/fa-facebook-square.png";
         crewCardRowSmallGap.appendChild(facebookImg); 
     }
 
