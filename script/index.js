@@ -175,23 +175,41 @@ for (i = 0; i < crew.length; i++) {
 
     if (hasFacebook) {
         console.log("We have the facebook");
+
+        const facebookLink = document.createElement("a");
+        facebookLink.href = crew[i].socials.facebook;
+
         const facebookImg = document.createElement("IMG");
-        facebookImg.src = "./images/fa-facebook-square.png";
-        crewCardRowSmallGap.appendChild(facebookImg); 
+        facebookImg.src = "../images/fa-facebook-square.png";
+        facebookLink.appendChild(facebookImg);
+
+        crewCardRowSmallGap.appendChild(facebookLink); 
     }
 
     if (hasInstagram) {
         console.log("We have the Instagram");
+
+        const instagramLink = document.createElement("a");
+        instagramLink.href = crew[i].socials.instagram;
+
         const instagramImg = document.createElement("IMG");
         instagramImg.src = "images/fa-instagram.png";
-        crewCardRowSmallGap.appendChild(instagramImg); 
+        instagramLink.appendChild(instagramImg);
+
+        crewCardRowSmallGap.appendChild(instagramLink); 
     }
 
     if (hasTwitter) {
         console.log("We have the Twitter");
+
+        const twitterLink = document.createElement("a");
+        twitterLink.href = crew[i].socials.twitter;
+
         const twitterImg = document.createElement("IMG");
         twitterImg.src = "/images/fa-twitter.png";
-        crewCardRowSmallGap.appendChild(twitterImg); 
+        twitterLink.appendChild(twitterImg);
+
+        crewCardRowSmallGap.appendChild(twitterLink); 
     }
 
     crewCard.appendChild(crewCardSocialLinks);
