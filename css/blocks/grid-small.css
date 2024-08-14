@@ -18,7 +18,7 @@
     align-content: flex-start;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .grid-small__cards {
         gap: 160px;
         justify-content: center;
